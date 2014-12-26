@@ -1,0 +1,34 @@
+#include "lights.h"
+
+LIGHT_ON BITMAP DISCARDABLE "lighton.bmp"
+LIGHT_OFF BITMAP DISCARDABLE "lightoff.bmp"
+GOLD_MEDAL BITMAP DISCARDABLE "gold.bmp"
+
+MAINICON ICON MOVEABLE PURE LOADONCALL DISCARDABLE "lights.ico"
+
+1 VERSIONINFO
+FILEVERSION 1,0,0,0
+PRODUCTVERSION 1,0,0,0
+FILETYPE VFT_APP
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904E4"
+        {
+            VALUE "CompanyName", "JincS, Inc."
+            VALUE "FileVersion", "1.0"
+            VALUE "FileDescription", "Light's Out!"
+            VALUE "InternalName", "LightsOut"
+            VALUE "LegalCopyright", "Copyright (c) 2004-2006 JincS, Inc. All Rights Reserved."
+            VALUE "LegalTrademarks", "JincS is a trademark of JincS, Inc. Do not use without permission."
+            VALUE "OriginalFilename", "LightsOut.exe"
+            VALUE "ProductName", "Light's Out!"
+            VALUE "ProductVersion", "1.0"
+        }
+    }
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 1252
+    }
+}
+
